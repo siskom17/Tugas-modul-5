@@ -9,7 +9,7 @@ public class input {
     
     public input(){
         kubus = new rumus();
-        System.out.println("Masukkan panjang sisi: " );
+        System.out.println("Masukkan panjang sisi: ");
         sisi = sc.nextInt();       
         kubus.sisi = this.sisi;
         volume = 1 *kubus.rumus();
